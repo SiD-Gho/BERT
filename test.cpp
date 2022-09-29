@@ -12,7 +12,8 @@ int main()
   int s=0;
   int a;
   int b;
-  sum(a,b,s);
-  cout<<"The sum is:"<<sum;
+  int v;
+  v = sum(a,b,s);
+  cout<<"The sum is:"<<v;
   return 0;
 }
