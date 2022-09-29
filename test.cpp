@@ -1,5 +1,5 @@
-#include<iostream.h>
-using namespace.std
+#include<iostream>
+using namespace std;
 int sum(int x, int y, int z)
 {
   cout<<"Enter two number:";
@@ -7,11 +7,12 @@ int sum(int x, int y, int z)
   z = x + y;
   return z;
 }
-void main()
+int main()
 {
-  int sum=0;
+  int s=0;
   int a;
   int b;
-  sum(a,b,sum);
+  sum(a,b,s);
   cout<<"The sum is:"<<sum;
+  return 0;
 }
